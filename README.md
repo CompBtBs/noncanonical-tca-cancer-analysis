@@ -31,7 +31,7 @@ In the second module, these *in silico*–derived metrics were used as training 
 *  Preprocessed features and labels used for model training are available in:
 `Module2_ml/data/X_y/`
 
-## Notebook description
+## Main notebooks description
 
 | Step | Notebook                                           | Description                                                                                                                                                    |
 | ---- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
