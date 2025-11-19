@@ -28,7 +28,7 @@ Together, our findings show that this recently identified pathway couples metabo
 ## Pipeline overview
 
 <p align="center">
-  <img src="Graphical_Abstract.png" alt="Graphical Abstract" width="700"/>
+  <img src="Graphical_Abstract.png" alt="Graphical_Abstract" width="700"/>
 </p>
 
 We conceived a two-step computational strategy integrating a metabolic modeling module and a machine learning module to dissect the activity of the non-canonical TCA cycle (Cit-Mal) across cancer cell lines.
