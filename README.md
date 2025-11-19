@@ -42,7 +42,7 @@ Rather than selecting a single flux vector by optimizing a predefined biological
 From these sampled flux distributions, we devised two complementary metrics to quantify Cit-Mal Cycle activity:
 
 - `Cycle Propensity`: the fraction of sampled steady-state flux distributions in which all three hallmark reactions (SLC25A1, ACLY, MDH1) are simultaneously active. This metric is dimensionless (0–1) and reflects the likelihood that the cycle operates under the given constraints.
-- `Cycle Flux Intensity`: the average flux through the bottleneck reaction (typically ACLY) in those sampled states where the cycle is active. This metric is expressed in arbitrary flux units (e.g., mmol/gDW/h), reflecting the relative nature of transcriptomics-derived constraints.
+- `Cycle Flux Intensity`: the average flux through the bottleneck reaction (typically ACLY) in those sampled states where the cycle is active. This metric is expressed in arbitrary flux units, reflecting the relative nature of transcriptomics-derived constraints.
 
 In the **machine learning module**, these *in silico*–derived metrics serve as training targets for supervised regression models designed to predict `Cycle Propensity` and `Cycle Flux Intensity` from non-metabolic gene expression data. After model training, we performed feature selection to identify robust transcriptional predictors of Cit-Mal Cycle activity, thereby revealing broader gene-expression programs potentially regulating or co-occurring with its engagement. Finally, we applied SHAP analysis to quantify the contribution of individual genes to model predictions, providing a biologically interpretable link between transcriptional features and Cit-Mal Cycle activity.
 
