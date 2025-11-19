@@ -59,8 +59,6 @@ In the **machine learning module**, these *in silico*–derived metrics serve as
 * Mean flux values across the sampled steady-state distributions are available in:
 `Module1_sampling/dati_sampling/dati/sampling/mean`
 *  Due to size constraints, full flux sampling data and models are not uploaded to GitHub. If needed, they can be generated locally using thenotebook `Module1_sampling/script/sampling_script.ipynb`.
-*  Preprocessed features and labels used for model training are available in:
-`Module2_ml/data/X_y/`
 
 ## Main notebooks description
 
