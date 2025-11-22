@@ -3,7 +3,7 @@
 This repository contains the code and relevant resources used in the analysis presented in the paper:
 
 **Mechanistically Informed Machine Learning Links Non-Canonical TCA Cycle Activity to Warburg Metabolism and Hallmarks of Malignancy**  
-*Lihao Lin, Lapi Francesco, Bruno G. Galuzzi, Marco Vanoni, Lilia Alberghina, Chiara Damiani*  
+*Lihao Lin, Francesco Lapi, Bruno G. Galuzzi, Marco Vanoni, Lilia Alberghina, Chiara Damiani*  
 (Submitted / Preprint available at: [insert DOI or arXiv link])
 
 ## Paper abstract
