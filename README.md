@@ -48,14 +48,17 @@ In the **machine learning module**, these *in silico*–derived metrics serve as
 ## Data availability
 
 * **Gene expression data** were obtained from the [Cancer Cell Line Encyclopedia (CCLE)](https://sites.broadinstitute.org/ccle/datasets).
-* * **Validation fluxes**  
+
+* **Validation fluxes**  
   For the validation of our cycle activity metrics, we used fluxes generated in Maspero *et al.* (2024), derived from spatial transcriptomics data from clear cell renal cell carcinoma tissue and adjacent normal parenchyma (sample ID: `PD45816_I2`).  
   Preprint: [https://doi.org/10.1101/2024.11.28.625842](https://doi.org/10.1101/2024.11.28.625842)
+
 * **Gene dependency scores** were retrieved from [DepMap](https://depmap.org/portal/data_page/?tab=allData).
-* **Flux metrics** (Cycle Propensity and Cycle Flux Intensity) for each cell line are available as a CSV file in: `Module2_ml/data/info/non_canonical_state.csv`
-* Mean flux values across the sampled steady-state distributions are available in:
-`Module1_sampling/dati_sampling/dati/sampling/mean`
-*  Due to size constraints, full flux sampling data and models are not uploaded to GitHub. If needed, they can be generated locally using thenotebook `Module1_sampling/script/sampling_script.ipynb`.
+
+* Due to size constraints, full flux sampling data and models are not uploaded to GitHub. They can be generated locally using the notebook `Module1_sampling/script/sampling_script.ipynb`.
+
+* All data required to reproduce the Module 2 analyses of this pipeline are available on Zenodo (DOI: https://doi.org/10.5281/zenodo.17684425).
+
 
 ## Main notebooks description
 
