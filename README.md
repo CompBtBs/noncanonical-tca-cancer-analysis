@@ -62,12 +62,19 @@ In the **machine learning module**, these *in silico*–derived metrics serve as
 
 ## Main notebooks description
 
-| Step | Notebook                                           | Description                                                                                                                                                    |
-| ---- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1️⃣  | `Module1_sampling/script/sampling_script.ipynb`    | Reconstructs **cell-specific metabolic models** from gene expression data and performs **corner-based sampling** (CBS) for each model.                         |
-| 2️⃣  | `Module1_sampling/script/comp_nctca_metrics.ipynb` | Computes the two activity metrics from sampled fluxes: `Cycle Propensity` and `Cycle Flux Intensity`.                                                          |
-| 3️⃣  | `Module2_ml/scripts/en_rf_selec.ipynb`             | Performs **feature selection** using ElasticNet and Random Forest to identify transcriptional predictors of Arnold Cycle activity.                             |
-| 4️⃣  | `Module2_ml/scripts/xgboost_shap.ipynb`            | Trains an **XGBoost model** on the selected features and applies **SHAP analysis** to interpret model predictions and prioritize key transcriptional features. |
+| Module  | Step | Notebook                                             | Description                                                                                                  |
+|--------|------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Module 1 | 1️⃣  | sampling_script.ipynb                               | Reconstructs cell specific metabolic models from gene expression data and performs corner based sampling (CBS) for each model. |
+| Module 1 | 2️⃣  | comp_nctca_metrics.ipynb                            | Computes the two activity metrics from sampled fluxes. Cycle Propensity and Cycle Flux Intensity.           |
+| Module 2 | 1️⃣  | validation_analysis.ipynb                           | Analyzes validation fluxes in ccRCC data and computes proliferation scores for downstream DepMap analysis.  |
+| Module 2 | 2️⃣  | data_preprocess.ipynb                               | Preprocesses expression datasets and identifies gene co expression modules.                                 |
+| Module 2 | 3️⃣  | elasticnet.ipynb                                    | Performs stable feature selection using multitask Elastic Net regression.                                   |
+| Module 2 | 4️⃣  | xgboost.ipynb                                       | Performs stable feature selection using multi output XGBoost models.                                        |
+| Module 2 | 5️⃣  | create_subsets.ipynb                                | Builds reduced gene panels from stably selected features.                                                   |
+| Module 2 | 6️⃣  | subset_training_shap.ipynb                          | Benchmarks and trains models using reduced gene panels, including SHAP based model interpretation.         |
+| Module 2 | 7️⃣  | depmap_analysis.ipynb                               | Correlates gene dependency (DepMap) scores with non canonical TCA cycle activity metrics.                   |
+| Module 2 | 8️⃣  | plot.ipynb                                          | Generates the plots and figures used in the manuscript.                                                     |
+
 
 
 
